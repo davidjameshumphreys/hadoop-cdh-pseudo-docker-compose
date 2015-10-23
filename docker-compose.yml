@@ -1,6 +1,7 @@
 cdh:
-  image: chalimartines/cdh5-pseudo-distributed
+  build: ./clj-spark-dev
   hostname: cdh
+  container_name: clj-spark
   ports:
     - "8020:8020"
     - "50070:50070"
@@ -20,3 +21,5 @@ cdh:
     - "8888:8888"
     - "18080:18080"
     - "9999:9999"
+  volumes:
+    - ./clj-spark-dev/projects:/home/clj-spark/src
