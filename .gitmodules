@@ -1,0 +1,6 @@
+[submodule "hadoop-cdh-pseudo-docker"]
+	path = hadoop-cdh-pseudo-docker
+	url = git@github.com:davidjameshumphreys/hadoop-cdh-pseudo-docker.git
+[submodule "clj-spark-dev/projects/clojspark"]
+	path = clj-spark-dev/projects/clojspark
+	url = git@github.com:oliyh/clojspark.git
